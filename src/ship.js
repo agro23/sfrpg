@@ -1,6 +1,8 @@
-class Ship {
+export class Ship {
   constructor(name, shortDesc, longDesc, map, xp, damageLog, orbit, special) {
-  this.name = "U.N.S.S. Santa Fe";
+  // this.name = "U.N.S.S. Santa Fe";
+  this.name = name;
+
   this.shortDesc = shortDesc;
   this.longDesc = longDesc;
   this.map = map;

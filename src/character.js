@@ -1,4 +1,4 @@
-class Character {
+export class Character {
   constructor(name, int, con, str, agl, xp, lvl, hp, mp, inventory, special) {
   this.name = name;
   this.int = int;

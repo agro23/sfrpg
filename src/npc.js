@@ -1,4 +1,4 @@
-class NPC {
+export class Npc {
   constructor(id, type, desc, name, int, con, str, agl, lvl, hp, mp, inventory, special) {
   this.id = id;
   this.type = type;
@@ -99,4 +99,4 @@ class NPC {
   }
 }
 
-exports.NPCModule = NPC;
+exports.npcModule = Npc;

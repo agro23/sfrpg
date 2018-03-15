@@ -1,4 +1,4 @@
-class Room {
+export class Room {
   constructor(id, name, shortDesc, longDesc, light, doors, contents, npc, special) {
   this.id = id;
   this.name = name;

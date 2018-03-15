@@ -25,7 +25,7 @@ describe('Room', function() {
     // console.log(room.doors[2]);
     room.setADoor(2, 99);
     // console.log(room.doors[2]);
-    expect(true).toEqual(true);
-    // expect(room.doors).toEqual(jasmine.arrayContaining([99]));
+    // expect(true).toEqual(true);
+    expect(room.doors).toEqual(jasmine.arrayContaining([99]));
   });
 });
