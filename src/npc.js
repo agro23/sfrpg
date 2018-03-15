@@ -1,20 +1,38 @@
-class Character {
-  constructor(name, int, con, str, agl, xp, lvl, hp, mp, inventory, special) {
+class NPC {
+  constructor(id, type, desc, name, int, con, str, agl, lvl, hp, mp, inventory, special) {
+  this.id = id;
+  this.type = type;
+  this.desc = desc;
   this.name = name;
   this.int = int;
   this.con = con;
   this.str = str;
   this.agl = agl;
-  this.xp = xp;
   this.lvl = lvl;
   this.hp = hp;
   this.mp = mp;
   this.inventory = inventory;
   this.special = special;
 }
+  getId() {
+    return this.id;
+  }
+  setId(id) {
+    this.id = id;
+  }
+
+  getDesc() {
+    return this.id;
+  }
+
+  setDesc(desc) {
+    this.desc = desc;
+  }
+
   getName() {
     return this.name;
   }
+
   setName(name) {
     this.name = name;
   }
@@ -22,6 +40,7 @@ class Character {
   getInt() {
     return this.int;
   }
+
   setInt(int) {
     this.int = int;
   }
@@ -46,14 +65,6 @@ class Character {
   }
   setAgl(agl) {
     this.agl = agl;
-  }
-
-  getXP() {
-    return this.xp;
-  }
-
-  setXP(xp) {
-    this.xp = xp;
   }
 
   getLvl() {
@@ -88,4 +99,4 @@ class Character {
   }
 }
 
-exports.characterModule = Character;
+exports.NPCModule = NPC;

@@ -17,4 +17,18 @@ describe('Character', function() {
     console.log(myPC.name);
     expect(myPC.name).toEqual("Zena");
   });
+
+  it('should set lvl to 11', function() {
+    var character = new Character("Zena", 0, 0, 0, 0, 0, 0, 0, 0, "", "");
+    character.setLvl(11);
+    console.log("Get lvl:" + character.getLvl());
+    expect(character.lvl).toEqual(11);
+  });
+
+  it('should get lvl', function() {
+    var character = new Character("Zena", 0, 0, 0, 0, 0, 11, 0, 0, "", "");
+    let x = 0;
+    x = character.getLvl();
+    expect(x).toEqual(11);
+  });
 });

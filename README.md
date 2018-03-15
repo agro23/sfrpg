@@ -1,4 +1,4 @@
-# Dungeon
+# SF RPG
 
 #### By Andy Grossberg and Andrew Peterson
 
@@ -13,15 +13,16 @@ A project for week one of Javascript focused on testing.
 
 * Create blank character object with Getter and Setter for Name.
   - test: Does the name return as blank?
-  EXPECTED INPUT: "" from Character.js
-  EXPECTED OUTPUT: None.
+  * EXPECTED INPUT: "" from Character.js
+  * EXPECTED OUTPUT: None.
 
 * Set Character name
   - test: Does the name return as blank?
-  EXPECTED INPUT: "Zena" from main.js
-  EXPECTED OUTPUT: "Zena" to console.
+  * EXPECTED INPUT: "Zena" from main.js
+  * EXPECTED OUTPUT: "Zena" to console.
 
-
+* Create Getters and Setters for all Character object stats
+  - Note: all the character stat logic is the same as for the name property.
 
 * Room, Item, NPC
 
